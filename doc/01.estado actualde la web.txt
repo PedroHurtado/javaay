@@ -1,0 +1,45 @@
+1. Backend
+	Java(x)
+		thread
+		class->objetos
+	.Net
+	php
+	python
+	node.js
+2. Frontend
+	html
+	css
+	js
+
+	Frameworks
+		Angular
+		React
+		Vue
+
+		Svelte
+		Qwik
+
+Servidor de estaticos
+	index.html
+	css
+	js
+
+Servidor de apis->Spring boot
+
+Protocolo
+	Http
+
+	Request			url			body			headers
+		GET
+		PUT					x			content-type:application/json					
+		POST					x
+		DELETE
+	Response
+		status code				x			content-type:application/json
+
+		200-400
+		>400
+
+
+Es un protocolo sin estado
+

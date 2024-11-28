@@ -54,13 +54,18 @@ public class Pizza extends EntityBase {
     public List<Ingredient> getIngredients(){
         return ingredients.stream().toList();
     }
+    
     public Double getPrice(){
 
         //https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 
+
+        //[{1,2},{2,4},{3,5}]
         return (ingredients.stream()
             .map(i->i.getCost())  //transformando el ingrediente a double
+             //2->4->5
             .reduce(0D, (ac,c)->ac+c)) * PROFIT;
+            //0+2=2->2+4=6->6+5->11*1.2
         
         
         /*     
